@@ -65,7 +65,8 @@ $(function () {
         }
         init();
     });
-    
+   
+
     $('#get-checked-data').on('click', function(event) {
         event.preventDefault(); 
         var checkedItems = {}, counter = 0;
