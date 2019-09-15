@@ -4,6 +4,8 @@ $(function () {
         // Settings
         var $widget = $(this),
             $checkbox = $('<input type="checkbox" class="hidden" />'),
+            $checkall = $('#all'),
+            $widget2 = $('.list-group-item'),
             color = ($widget.data('color') ? $widget.data('color') : "primary"),
             style = ($widget.data('style') == "button" ? "btn-" : "list-group-item-"),
             settings = {
@@ -17,18 +19,26 @@ $(function () {
             
         $widget.css('cursor', 'pointer')
         $widget.append($checkbox);
-
-        // Event Handlers
-        $widget.on('click', function () {
+        
+    
+        $($widget).on('click', function (event) {
+            var target = $ (event.target);
+            if(target.is("#all")){
+                
+               
+            
+                $checkbox.prop('checked', !$checkbox.is(':checked'));
+              
+               updateDisplay2();
+            }
+          
+            else{
+              
             $checkbox.prop('checked', !$checkbox.is(':checked'));
             $checkbox.triggerHandler('change');
-            updateDisplay();
+            updateDisplay();}
         });
-        $checkbox.on('change', function () {
-            updateDisplay();
-        });
-          
-
+        
         // Actions
         function updateDisplay() {
             var isChecked = $checkbox.is(':checked');
@@ -40,12 +50,30 @@ $(function () {
             $widget.find('.state-icon')
                 .removeClass()
                 .addClass('state-icon ' + settings[$widget.data('state')].icon);
-
+               
             // Update the button's color
             if (isChecked) {
                 $widget.addClass(style + color + ' active');
             } else {
                 $widget.removeClass(style + color + ' active');
+            }
+        }
+        function updateDisplay2() {
+            var isChecked = $checkbox.is(':checked');
+
+            // Set the button's state
+            $widget2.data('state', (isChecked) ? "on" : "off");
+
+            // Set the button's icon
+            $widget2.find('.state-icon')
+                .removeClass()
+                .addClass('state-icon ' + settings[$widget2.data('state')].icon);
+               
+            // Update the button's color
+            if (isChecked) {
+                $widget2.addClass(style + color + ' active');
+            } else {
+                $widget2.removeClass(style + color + ' active');
             }
         }
 
@@ -70,10 +98,11 @@ $(function () {
     $('#get-checked-data').on('click', function(event) {
         event.preventDefault(); 
         var checkedItems = {}, counter = 0;
-        $("#check-list-box li.active").each(function(idx, li) {
+        $("#check-list li.active").each(function(idx, li) {
             checkedItems[counter] = $(li).text();
             counter++;
         });
         $('#display-json').html(JSON.stringify(checkedItems, null, '\t'));
+       
     });
 });

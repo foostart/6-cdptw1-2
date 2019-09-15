@@ -16,10 +16,13 @@ $url_path = str_replace('\\', '/', $url_path);
 		<div class="row item">
 	        <div class="col-md-6 col-sm-6 col-xs-12">
 	            <h3 class="text-center">Basic Example</h3>
-	            <div class="well">
-	        		<ul class="list-group checked-list-box">
-	                  <li class="list-group-item">Cras justo odio</li>
-	                  <li class="list-group-item" data-checked="true">Dapibus ac facilisis in</li>
+				
+	            <div class="well padding-bottom">
+				
+	        		<ul class="list-group checked-list-box"  id="check-list">
+					<li class="list-group-item" id="all">Chọn tất cả</li>
+	                  <li class="list-group-item" >Cras justo odio</li>
+	                  <li class="list-group-item " data-checked="true">Dapibus ac facilisis in</li>
 	                  <li class="list-group-item">Morbi leo risus</li>
 	                  <li class="list-group-item">Porta ac consectetur ac</li>
 	                  <li class="list-group-item">Vestibulum at eros</li>
@@ -29,18 +32,21 @@ $url_path = str_replace('\\', '/', $url_path);
 	                  <li class="list-group-item">Porta ac consectetur ac</li>
 	                  <li class="list-group-item">Vestibulum at eros</li>
 	                </ul>
+					<br />
+	               
 	            </div>
 	        </div>
 
 	        <div class="col-md-6 col-sm-6 col-xs-12">
 	            <h3 class="text-center">Colorful Example</h3>
 	            <div class="well">
-	            	<ul id="check-list-box" class="list-group checked-list-box">
+	            	<ul id="check-list" class="list-group checked-list-box">
+					
 	                  <li class="list-group-item">Cras justo odio</li>
-	                  <li class="list-group-item" data-color="success">Dapibus ac facilisis in</li>
-	                  <li class="list-group-item" data-color="info">Morbi leo risus</li>
-	                  <li class="list-group-item" data-color="warning">Porta ac consectetur ac</li>
-	                  <li class="list-group-item" data-color="danger">Vestibulum at eros</li>
+	                  <li class="list-group-item">Dapibus ac facilisis in</li>
+	                  <li class="list-group-item" >Morbi leo risus</li>
+	                  <li class="list-group-item">Porta ac consectetur ac</li>
+	                  <li class="list-group-item">Vestibulum at eros</li>
 	                </ul>
 	                <br />
 	                <button class="btn btn-primary col-xs-12" id="get-checked-data">Get Checked Data</button>
