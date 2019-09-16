@@ -1,0 +1,292 @@
+.mod_custom_14 .container {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0;
+}
+.mod_custom_14 .col-md-4 {
+  with: 33.33%;
+  float: left;
+}
+.mod_custom_14 .content-right {
+  float: right;
+}
+.mod_custom_14 div {
+  display: block;
+}
+.mod_custom_14 div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+.mod_custom_14 .features_content {
+  float: left;
+  width: 800px;
+}
+.mod_custom_14 h2 {
+  display: block;
+  -webkit-margin-before: 0.83em;
+  -webkit-margin-after: 0.83em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-style: inherit;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+.mod_custom_14 .features_content h2,
+.mod_custom_14 .features_content h3 {
+  color: #242628;
+  font-size: 30px;
+}
+.mod_custom_14 h2.features_section {
+  margin: 0 0 40px;
+  font-weight: 600;
+  text-align: center;
+}
+.mod_custom_14 ul {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  vertical-align: baseline;
+  list-style: none inside;
+}
+.mod_custom_14 li {
+  text-align: -webkit-match-parent;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+}
+.mod_custom_14 #features_content li {
+  display: inline-block;
+  zoom: 1;
+  font-size: 14px;
+  color: #434353;
+  line-height: 1.6;
+  vertical-align: top;
+  position: relative;
+}
+.mod_custom_14 .page-template-template_theme_new-php #features_content li {
+  padding: 0 0 30px;
+  margin: 0 28px 30px 0;
+  height: auto;
+  width: 369px;
+}
+.mod_custom_14 a:-webkit-any-link {
+  cursor: auto;
+  padding: 0;
+  border: 0;
+  font-style: inherit;
+  font-family: inherit;
+  vertical-align: baseline;
+  outline: 0;
+  color: #25A2CF;
+}
+.mod_custom_14 .features_content a {
+  font-weight: 700;
+  text-decoration: underline;
+}
+.mod_custom_14 #features_content li a.fancy {
+  float: left;
+  width: 80px;
+  height: 82px;
+  overflow: hidden;
+  margin: 0 12px 0 1px;
+  border-radius: 50%;
+}
+.mod_custom_14 span {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+.mod_custom_14 #features_content li span {
+  position: absolute;
+  top: 27px;
+  left: 0;
+  width: 86px;
+  height: 87px;
+}
+.mod_custom_14 em {
+  font-style: italic;
+}
+.mod_custom_14 .page-template-template_theme_new-php #features_content li em {
+  border-radius: 50px;
+  position: absolute;
+  top: 0;
+  left: 1px;
+  background: url(images/fade_new.png) no-repeat;
+  width: 80px;
+  height: 80px;
+  opacity: .5;
+  transition: opacity .2s ease;
+}
+.mod_custom_14 img {
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+.mod_custom_14 .features_content img {
+  max-width: 100%;
+  height: auto;
+}
+.mod_custom_14 #features_content li img {
+  float: left;
+}
+.mod_custom_14 .page-template-template_theme_new-php #features_content li img {
+  border-radius: 50px;
+  margin: 0 15px 0 0;
+}
+.mod_custom_14 #features_content li strong {
+  font-weight: 600;
+  font-size: 18px;
+  margin: 0 0 6px;
+  display: block;
+  color: #1d2438;
+  line-height: 1.2;
+}
+.mod_custom_14 p {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+.mod_custom_14 .page-template-template_theme_new-php #features_content li p {
+  color: #485469;
+  line-height: 1.7;
+  margin: 0;
+  overflow: hidden;
+}
+.mod_custom_14 div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+.mod_custom_14 .theme_details {
+  background: #fcfbe3;
+  box-shadow: 3px 3px 0 0 #F1EBD4;
+  float: right;
+  width: 275px;
+  border: 1px solid #d7d1bc;
+  border-radius: 3px;
+  margin-left: 40px;
+}
+.mod_custom_14 .theme_details .details_section {
+  padding: 20px 30px 10px;
+  border-bottom: 1px solid #d7d1bc;
+}
+.mod_custom_14 h3 {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-style: inherit;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+.mod_custom_14 .theme_details h3 {
+  font-weight: 600;
+  font-size: 18px;
+  color: #534a37;
+  margin: 0 0 20px;
+}
+.mod_custom_14 li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-style: inherit;
+  font-family: inherit;
+  vertical-align: baseline;
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+.mod_custom_14 .theme_details li {
+  font-weight: 600;
+  font-size: 14px;
+  color: #a59981;
+  text-transform: uppercase;
+}
+.mod_custom_14 span {
+  margin: 0;
+  border: 0;
+  outline: 0;
+  font-style: inherit;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+.mod_custom_14 .theme_details li span {
+  font-weight: 400;
+  font-size: 14px;
+  color: #534a37;
+  text-transform: none;
+  display: block;
+  padding: 5px 0 23px;
+}
+.mod_custom_14 .theme_details li {
+  font-weight: 600;
+  font-size: 14px;
+  color: #a59981;
+  text-transform: uppercase;
+}
+.mod_custom_14 a {
+  margin: 0;
+  border: 0;
+  font-style: inherit;
+  font-family: inherit;
+  vertical-align: baseline;
+  outline: 0;
+  text-decoration: none;
+  color: #25A2CF;
+}
+.mod_custom_14 .theme_details li a {
+  font-weight: 400;
+  font-size: 14px;
+  color: #534a37;
+  text-transform: none;
+  display: block;
+  padding: 0 0 10px;
+}
