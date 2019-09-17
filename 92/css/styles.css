@@ -1,11 +1,16 @@
+.mod_custom_14 {
+  margin-top: 30px;
+}
 .mod_custom_14 .container {
-  width: 1140px;
   margin: 0 auto;
   padding: 0;
 }
 .mod_custom_14 .col-md-4 {
   with: 33.33%;
   float: left;
+}
+.mod_custom_14 .row {
+  margin-top: 38px;
 }
 .mod_custom_14 .content-right {
   float: right;
@@ -25,7 +30,6 @@
 }
 .mod_custom_14 .features_content {
   float: left;
-  width: 800px;
 }
 .mod_custom_14 h2 {
   display: block;
@@ -46,7 +50,7 @@
   font-size: 30px;
 }
 .mod_custom_14 h2.features_section {
-  margin: 0 0 40px;
+  margin: 0 0 0px;
   font-weight: 600;
   text-align: center;
 }
@@ -163,7 +167,7 @@
   border-radius: 50px;
   margin: 0 15px 0 0;
 }
-.mod_custom_14 #features_content li strong {
+.mod_custom_14 strong {
   font-weight: 600;
   font-size: 18px;
   margin: 0 0 6px;
