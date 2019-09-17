@@ -7,7 +7,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <?php
         if (!class_exists('lessc')) {
@@ -22,51 +22,129 @@
     </head>
 
     <body>
-        <div class="mod_custom_14">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8">
-                        <div id="features">
-                            <div id="features_wrap">
+    <div class="mod_custom_14">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-8 col-lg-8">
+                    <div id="features">
+                        <div id="features_wrap">
 
-                                <div class="features_content">
-                                    <h2 class="features_section">Capital Features</h2>
-                                    <div class="col-md-12">
-                                        <ul id="features_content">
-                                            <div class="row">
-                                                
-                                                    <div class="col-md-6">
-                                                        <div class="content-left">
-                                                            <li><a class="fancy" href="#"><span></span><em class="fd"></em><img src="images/t1.png" alt=""/></a><strong>Lorem</strong>
+                            <div class="features_content">
+                                <h2 class="features_section">Capital Features</h2>
+                                <div class="col-md-12">
+                                    <ul id="features_content">
+                                        <div class="row">
 
-                                                                <p>Lorem</p>
-                                                            </li>
-
-                                                        </div>
-
+                                            <div class="col-md-6">
+                                                <div class="row">
+                                                    <div class="col-sm-12 col-md-4 col-lg-4 content-left">
+                                                        <li><a class="fancy" href="#"><span></span><em
+                                                                    class="fd"></em><img src="images/t1.png"
+                                                                    alt="" /></a></li>
                                                     </div>
-
-                                                    <div class="col-md-6">
-                                                        <div class="content-right">
-                                                            <li><a class="fancy" href="#" title="Dynamic Homepage Builder" rel="group"><span></span><em class="fd"></em><img src="images/t1.png" alt=""/></a><strong>Lorem</strong>
-
-                                                                <p>Lorem</p>
-                                                            </li>
-
+                                                    <div class="col-sm-12 col-md-8 col-md-8"><strong>Lorem</strong>
+                                                        <div class="content">
+                                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                                         </div>
                                                     </div>
-                                                
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-12 col-md-4 col-lg-4 content-left">
+                                                        <li><a class="fancy" href="#"><span></span><em
+                                                                    class="fd"></em><img src="images/t3.png"
+                                                                    alt="" /></a></li>
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-8 col-md-8"><strong>Lorem</strong>
+                                                        <div class="content">
+                                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                                        </div>
+                                                    </div>
+
+
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-12 col-md-4 col-lg-4 content-left">
+                                                        <li><a class="fancy" href="#"><span></span><em
+                                                                    class="fd"></em><img src="images/t5.png"
+                                                                    alt="" /></a></li>
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-8 col-md-8"><strong>Lorem</strong>
+                                                        <div class="content">
+                                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                                        </div>
+                                                    </div>
+
+
+                                                </div>
+
+                                            </div>
+
+                                            <div class="col-md-6">
+
+                                                <div class="row">
+                                                    <div class="col-sm-12 col-md-4 col-lg-4">
+                                                        <li><a class="fancy" href="#" title="Dynamic Homepage Builder"
+                                                                rel="group"><span></span><em class="fd"></em><img
+                                                                    src="images/t2.png" alt="" /></a></li>
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-8 col-md-8"><strong>Lorem</strong>
+                                                        <div class="content">
+                                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                                        </div>
+                                                    </div>
+
+
+
+
+
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-12 col-md-4 col-lg-4">
+                                                        <li><a class="fancy" href="#" title="Dynamic Homepage Builder"
+                                                                rel="group"><span></span><em class="fd"></em><img
+                                                                    src="images/t4.png" alt="" /></a></li>
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-8 col-md-8"><strong>Lorem</strong>
+                                                        <div class="content">
+                                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                        </div>
+                                                    </div>
+
+
+
+
+
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-12 col-md-4 col-lg-4">
+                                                        <li><a class="fancy" href="#" title="Dynamic Homepage Builder"
+                                                                rel="group"><span></span><em class="fd"></em><img
+                                                                    src="images/t6.png" alt="" /></a></li>
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-8 col-md-8"><strong>Lorem</strong>
+                                                        <div class="content">
+                                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                        </div>
+                                                    </div>
+
+
+
+
+
+                                                </div>
+
+
                                                 <hr>
 
                                             </div>
 
-                                        </ul>
-                                    </div>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4">
                         <div class="theme_details">
 
                             <div class="details_section">
@@ -89,8 +167,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
             </div>
-        </div>  
+        </div>
+    </div>
     </body>
 </html>
