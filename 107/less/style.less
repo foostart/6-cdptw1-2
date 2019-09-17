@@ -17,10 +17,13 @@
         margin-left:  -15px;
         margin-right: -15px;
     }
+
+  
     @media (min-width: 768px){
         .col-md-6 {
             float:left;
             width: 50%;
+            
         }
 
         .col-md-4 {
@@ -31,8 +34,22 @@
             float:left;
             width: 66,67%;
         }
+       
     }
-
+    @media (max-width: 768px){
+        .news{
+            text-align: center;
+            .read{
+               
+                margin-left: calc(50%-12px);
+            }
+            .read1{
+               
+                margin-left: calc(50%-12px);
+            }
+        }
+        
+    }
 
 
     .university {
@@ -46,7 +63,7 @@
                 font-weight:normal;
                 position: relative;
                 text-align:  center;
-                margin-bottom: 30px;
+                line-height: 17px;
                 color:#666666;
             }
             a {
@@ -65,8 +82,8 @@
             }
             a:hover {
                 color:#57CAB3;
-                background: #F0F0F0;
-                padding:  0 0 0 1em;
+               
+        
                 text-decoration:  none;
 
             }
@@ -180,7 +197,8 @@
         background: #0db896;
     }
     .vc_separator.content-separator {
-        margin: 40px 0 ;
+        margin: 47px 0 ;
+        margin-top: 24px;
     }
     .vc_sep_holder_l {
         width: 100%;
