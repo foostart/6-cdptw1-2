@@ -14,9 +14,9 @@
         $less->compileFile('less/type-91.less', 'css/type-91.css');
         ?>
         <link href="css/type-91.css" rel="stylesheet" type="text/css"/>
-
+<link rel="stylesheet" href="../package/css/swiper.min.css">
         <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
-        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+       
     </head>
 
     <body>
@@ -44,7 +44,9 @@
 
                                 <section class="events flexslider" style="height: 458px;">
                                     <h3>Events</h3>
-                                    <ul class="slides">
+                                    <ul class="swiper-container">
+                                         <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
                                         <li style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2;">								<article>
                                                 <span class="date">28<span>Wed 2015</span></span>
                                                 <h3><a href="#">Nam eget dui. Etiam rhoncus</a></h3>
@@ -60,38 +62,23 @@
                                                 <h3><a href="#">In enim justo, rhoncus ut</a></h3>
                                                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur </p>
                                             </article>
-                                        </li><li style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;">								<article>
-                                                <span class="date">28<span>Wed 2015</span></span>
-                                                <h3><a href="#">Maecenas tempus, tellus eget</a></h3>
-                                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur </p>
-                                            </article>
-                                            <article>
-                                                <span class="date">28<span>Wed 2015</span></span>
-                                                <h3><a href="#">Nullam dictum felis eu pede</a></h3>
-                                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur </p>
-                                            </article>
-                                            <article>
-                                                <span class="date">28<span>Wed 2015</span></span>
-                                                <h3><a href="#">In enim justo, rhoncus ut</a></h3>
-                                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur </p>
-                                            </article>
-                                        </li><li style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;">								<article>
-                                                <span class="date">28<span>Wed 2015</span></span>
-                                                <h3><a href="#">Vivamus elementum semper nisi</a></h3>
-                                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur </p>
-                                            </article>
-                                            <article>
-                                                <span class="date">28<span>Wed 2015</span></span>
-                                                <h3><a href="#">Donec pede justo, fringilla vel</a></h3>
-                                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur </p>
-                                            </article>
-                                            <article>
-                                                <span class="date">28<span>Wed 2015</span></span>
-                                                <h3><a href="#">Donec quam felis, ultricies nec</a></h3>
-                                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur </p>
-                                            </article>
-                                        </li>						</ul>
-                                    <ul class="flex-direction-nav"><li><a href="#">Previous</a></li><li><a class="flex-next" href="#">Next</a></li></ul></section>
+                                        </li>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            haha
+                                        </div>  
+                                          <div class="swiper-slide">
+                                            haha
+                                        </div> 
+                                          <div class="swiper-slide">
+                                            haha
+                                        </div> 
+                                        </div>	
+                                        				
+
+                                    </ul>
+
+                                    <ul class="flex-direction-nav"><li><a href="#" class="flex-prev">Previous</a></li><li><a class="flex-next" href="#">Next</a></li></ul></section>
                             </div>
                         </div>
                     </div>
@@ -101,3 +88,12 @@
     </body>
 
 </html>
+<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+ <script>
+    var swiper = new Swiper('.swiper-container', {
+      navigation: {
+        nextEl: '.flex-next',
+        prevEl: '.flex-prev',
+      },
+    });
+  </script>
