@@ -1,47 +1,9 @@
-.type-91 div {
-  display: block;
-}
-.type-91 div {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-weight: inherit;
-  font-style: inherit;
-  font-size: 100%;
-  font-family: inherit;
-  vertical-align: baseline;
-  list-style: none;
-}
-.type-91 div {
-  margin: 0;
-  border: 0;
-  outline: 0;
-  font-weight: inherit;
-  font-style: inherit;
-  font-size: 100%;
-  font-family: inherit;
-  vertical-align: baseline;
-  list-style: none;
-}
 .type-91 .college-box .course-events {
   background: #ffffff;
   border-top: 1px solid #f3efe7;
   padding: 55px 0 37px 0;
 }
-.type-91 div {
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-weight: inherit;
-  font-style: inherit;
-  font-size: 100%;
-  font-family: inherit;
-  vertical-align: baseline;
-  list-style: none;
-}
 .type-91 .wrapper {
-  max-width: 1078px;
   margin: 0 auto;
   box-sizing: border-box;
 }
@@ -234,6 +196,9 @@
 .type-91 .college-box .course-events .col-8 {
   padding-left: 4%;
   box-sizing: border-box;
+}
+.type-91 .no-margin {
+  margin: 0;
 }
 .type-91 section {
   display: block;
