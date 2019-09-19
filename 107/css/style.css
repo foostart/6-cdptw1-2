@@ -2,18 +2,11 @@
   font-family: 'Raleway', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: 400;
 }
-.mod-custom-19 div {
-  list-style: none;
-}
 .mod-custom-19 * {
   box-sizing: border-box;
 }
 .mod-custom-19 a {
   text-decoration: none;
-}
-.mod-custom-19 .row {
-  margin-left: -15px;
-  margin-right: -15px;
 }
 @media (min-width: 768px) {
   .mod-custom-19 .col-md-6 {
@@ -43,38 +36,13 @@
 .mod-custom-19 .university {
   border: 2px solid #e8e8e8;
   border-radius: 6px;
-  margin: 0 0 1rem;
+  margin: 0 0 0.7rem;
   padding: 1rem;
 }
-.mod-custom-19 .university .abc h1 {
-  font-size: 20px;
-  font-weight: normal;
-  position: relative;
-  text-align: center;
-  line-height: 17px;
-  color: #666666;
-}
-.mod-custom-19 .university .abc a {
-  font-size: 14px;
-  padding-left: 20px;
-  color: #144563;
-  margin: 10px;
-  background: 0 0;
-  display: block;
-  box-sizing: border-box;
-  text-decoration: none;
-  position: relative;
-  transition: color .2s ease-in-out;
+.mod-custom-19 .university.highlight {
+  background: #144563;
+  color: white;
   border: none;
-}
-.mod-custom-19 .university .abc a:hover {
-  color: #57CAB3;
-  text-decoration: none;
-}
-.mod-custom-19 .university p {
-  margin-bottom: 1.4rem;
-  color: #414345;
-  padding-left: 10px;
 }
 .mod-custom-19 .premium {
   background: #144563;

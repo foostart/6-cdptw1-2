@@ -2,9 +2,7 @@
     font-family: 'Raleway',"Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
     font-weight: 400;
 
-    div {
-        list-style:  none;
-    }
+   
 
     * {
         box-sizing: border-box;
@@ -13,10 +11,7 @@
         text-decoration:  none;
     }
 
-    .row {
-        margin-left:  -15px;
-        margin-right: -15px;
-    }
+    
 
   
     @media (min-width: 768px){
@@ -55,45 +50,16 @@
     .university {
         border: 2px solid #e8e8e8;
         border-radius: 6px;
-        margin: 0 0 1rem;
+        margin: 0 0 0.7rem;
         padding: 1rem;
-        .abc {
-            h1 {
-                font-size: 20px;
-                font-weight:normal;
-                position: relative;
-                text-align:  center;
-                line-height: 17px;
-                color:#666666;
-            }
-            a {
-                font-size: 14px;
-                padding-left: 20px;
-                color:#144563;
-                margin: 10px;
-                background: 0 0;
-                display: block;
-
-                box-sizing: border-box;
-                text-decoration: none;
-                position: relative;
-                transition: color .2s ease-in-out;
-                border: none;
-            }
-            a:hover {
-                color:#57CAB3;
-               
+        &.highlight{
+            background: #144563;
+            color: white;
+            border: none;
+            
+        }
+      
         
-                text-decoration:  none;
-
-            }
-        }
-        p {
-            margin-bottom: 1.4rem;
-            color: #414345;
-            padding-left: 10px;
-        }
-
     }
 
     .premium {

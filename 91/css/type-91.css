@@ -19,6 +19,10 @@
 .type-91 article {
   display: block;
 }
+.type-91 article:hover {
+  box-shadow: 0 0 10px #cecece;
+  cursor: pointer;
+}
 .type-91 article {
   margin: 0;
   outline: 0;
