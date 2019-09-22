@@ -41,7 +41,7 @@
                                 </article>
                             </div>
 
-                            <div class="col-8 col-md-8 col-sm-12 col-xs-12">
+                            <div class="col-md-8 col-sm-12 col-xs-12">
 
 
                                 <section class="events flexslider" style="height: 458px;">
