@@ -9,7 +9,7 @@ $( () => {
             $checkbox = $('<input type="checkbox" class="hidden" />'),
             
             $all = $('li:first-child span');
-          
+        
           
             $widget2 = $('.list-group-item'),
             $spanAll = $('.list-group-item input'),
@@ -61,6 +61,7 @@ $( () => {
             // Update the button's color
             if (isChecked) {
                 $widget.addClass(style + color + ' active');
+         
             } else {
                 $widget.removeClass(style + color + ' active');
             }
@@ -80,9 +81,13 @@ $( () => {
             if (isChecked) {
                 $widget2.addClass(style + color + ' active');
                 $('#all').attr("style", "background-color: #286090; color: #fff;")
+                    var replaced = $('#all').html().replace('Chọn tất cả','Xóa tất cả');
+                $('#all').html(replaced);
             } else {
                 $widget2.removeClass(style + color + ' active');
                 $('#all').removeAttr("style", "background-color: #286090; color: #fff;")
+                   var replaced = $('#all').html().replace('Xóa tất cả','Chọn tất cả');
+                $('#all').html(replaced);
             }
         }
 

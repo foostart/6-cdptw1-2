@@ -17,7 +17,11 @@
 .type-831 .list-group-item-primary {
   color: #ffffff;
   background-color: #428bca;
+  cursor: pointer;
 }
 .type-831 .item {
   margin: 0;
+}
+.type-831 .list-group-item:hover {
+  cursor: pointer;
 }

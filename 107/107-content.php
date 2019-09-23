@@ -6,26 +6,26 @@
         <h6>University Grade Theme Features</h6>
         <div class="panel-group" id="accordion">
           <div class="panel panel-default">
-            <div class="panel-heading">
+            <div class="panel-heading highlight">
               <h2 class="panel-title university highlight" >
                 <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true">
                   + Premium Course Catalog System</a>
               </h2>
             </div>
             <div id="collapse1" class="panel-collapse collapse in">
-              <div class="panel-body">Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem</div>
+              <div class="panel-body">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</div>
             </div>
           </div>
           <div class="panel panel-default">
             <div class="panel-heading">
               <h2 class="panel-title  university ">
                 <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" >
-                +  Faculty User Roles with Course Catalog
+                +  Faculty User Roles with Course
                   integration!</a>
               </h2>
             </div>
             <div id="collapse2" class="panel-collapse collapse">
-              <div class="panel-body">Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem</div>
+              <div class="panel-body">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</div>
             </div>
           </div>
 
@@ -34,12 +34,12 @@
               <h2 class="panel-title  university">
                 <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
 
-                + Faculty User Roles with Course Catalog
+                + Faculty User Roles with Course 
                   integration!</a>
               </h2>
             </div>
             <div id="collapse3" class="panel-collapse collapse">
-              <div class="panel-body">Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem</div>
+              <div class="panel-body">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</div>
             </div>
           </div>
           <div class="panel panel-default">
@@ -47,12 +47,12 @@
               <h2 class="panel-title university">
                 <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
 
-                + Faculty User Roles with Course Catalog
+                + Faculty User Roles with Course 
                   integration!</a>
               </h2>
             </div>
             <div id="collapse4" class="panel-collapse collapse">
-              <div class="panel-body">Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem</div>
+              <div class="panel-body">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</div>
             </div>
           </div>
           <div class="panel panel-default">
@@ -60,12 +60,12 @@
               <h2 class="panel-title university abc">
                 <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
 
-                + Faculty User Roles with Course Catalog
+                + Faculty User Roles with Course
                   integration!</a>
               </h2>
             </div>
             <div id="collapse5" class="panel-collapse collapse">
-              <div class="panel-body">Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem</div>
+              <div class="panel-body">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</div>
             </div>
           </div>
         </div>
@@ -91,10 +91,10 @@
             </div>
           </div>
           <div class="col-md-8">
-            <h4>Lorem Lorem </h4>
-            <p>Lorem Lorem Lorem Lorem </p>
+            <h4>Faculty User Roles</h4>
+            <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups</p>
             <div class="read">
-              <h5>READ MORE!</h5>
+              <h5>Read More!</h5>
             </div>
           </div>
         </div>
@@ -126,10 +126,10 @@
             </div>
           </div>
           <div class="col-md-8">
-            <h4>Lorem Lorem Lorem Lorem Lorem Lorem </h4>
-            <p>Lorem Lorem Lorem Lorem Lorem Lorem </p>
-            <div class="read1">
-              <h5>ENROLL TODAY!</h5>
+            <h4>Premium Course</h4>
+            <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups</p>
+            <div class="read">
+              <h5>Read More!</h5>
             </div>
           </div>
         </div>

@@ -49,11 +49,11 @@
 
     .university {
     
-        border-radius: 6px;
+        border-radius: 4px;
         margin: 0 0 0rem;
         padding: 1rem;
         &.highlight{
-            background: #144563;
+            background-color: #144563 !important;
             color: white;
             border: none;
             
@@ -61,7 +61,7 @@
       
         
     }
-
+    
     .premium {
         background:  #144563;
         border-radius: 4px;
@@ -134,7 +134,7 @@
         border-radius: 5px;
         margin-left: 17px;
         margin-top: 10px;
-
+        &:hover{cursor:pointer;}
     }
     h5 {
         text-align: center;
@@ -148,7 +148,11 @@
         float:left;
     }
     .read:hover {
-        background: #0db896;
+        background: rgba(20, 68, 97, 0.86);
+        
+        h5{
+        color:white;
+        }
     }
 
     .read1 {
@@ -161,6 +165,7 @@
     }
     .read1:hover {
         background: #0db896;
+        cursor: pointer;
     }
     .vc_separator.content-separator {
         margin: 47px 0 ;

@@ -102,6 +102,24 @@
                                             </article>
                                         </li>
                                         </div>
+                                            <div class="swiper-slide">
+                                        <li style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2;">                             <article>
+                                                <span class="date">28<span>Wed 2015</span></span>
+                                                <h3><a href="#">Nam eget dui. Etiam rhoncus</a></h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur </p>
+                                            </article>
+                                            <article>
+                                                <span class="date">28<span>Wed 2015</span></span>
+                                                <h3><a href="#">Vivamus elementum semper nisi</a></h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur </p>
+                                            </article>
+                                            <article>
+                                                <span class="date">28<span>Wed 2015</span></span>
+                                                <h3><a href="#">In enim justo, rhoncus ut</a></h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur </p>
+                                            </article>
+                                        </li>
+                                        </div>
                                          
                                         </div>	
                                         				

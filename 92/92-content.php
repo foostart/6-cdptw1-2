@@ -44,38 +44,11 @@
                                                     </div>
                                                     <div class="col-sm-12 col-md-8 col-md-8"><strong>Lorem</strong>
                                                         <div class="content">
-                                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                            <p></p>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="row">
-                                                    <div class="col-sm-12 col-md-4 col-lg-4 content-left">
-                                                        <li><a class="fancy" href="#"><span></span><em
-                                                                    class="fd"></em><img src="images/t3.png"
-                                                                    alt="" /></a></li>
-                                                    </div>
-                                                    <div class="col-sm-12 col-md-8 col-md-8"><strong>Lorem</strong>
-                                                        <div class="content">
-                                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                                                        </div>
-                                                    </div>
-
-
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-sm-12 col-md-4 col-lg-4 content-left">
-                                                        <li><a class="fancy" href="#"><span></span><em
-                                                                    class="fd"></em><img src="images/t5.png"
-                                                                    alt="" /></a></li>
-                                                    </div>
-                                                    <div class="col-sm-12 col-md-8 col-md-8"><strong>Lorem</strong>
-                                                        <div class="content">
-                                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
-                                                        </div>
-                                                    </div>
-
-
-                                                </div>
+                                        
 
                                             </div>
 
@@ -98,40 +71,7 @@
 
 
                                                 </div>
-                                                <div class="row">
-                                                    <div class="col-sm-12 col-md-4 col-lg-4">
-                                                        <li><a class="fancy" href="#" title="Dynamic Homepage Builder"
-                                                                rel="group"><span></span><em class="fd"></em><img
-                                                                    src="images/t4.png" alt="" /></a></li>
-                                                    </div>
-                                                    <div class="col-sm-12 col-md-8 col-md-8"><strong>Lorem</strong>
-                                                        <div class="content">
-                                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                                        </div>
-                                                    </div>
-
-
-
-
-
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-sm-12 col-md-4 col-lg-4">
-                                                        <li><a class="fancy" href="#" title="Dynamic Homepage Builder"
-                                                                rel="group"><span></span><em class="fd"></em><img
-                                                                    src="images/t6.png" alt="" /></a></li>
-                                                    </div>
-                                                    <div class="col-sm-12 col-md-8 col-md-8"><strong>Lorem</strong>
-                                                        <div class="content">
-                                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                                        </div>
-                                                    </div>
-
-
-
-
-
-                                                </div>
+                                      
 
 
                                                 <hr>

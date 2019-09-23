@@ -59,7 +59,7 @@
                         </aside>
                     </div>
 
-                    <div class="col-md-6">
+                    <div class="col-xs-6 col-md-6 col-lg-6">
                         <aside id="themerex_widget_top10-4" class="widget_number_2 column-1_3 widget widget_top10">
                             <h5 class="widget_title">Recent Courses</h5>
                             
