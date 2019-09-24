@@ -25,26 +25,23 @@
     <div class="mod_custom_14">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 col-md-8 col-lg-8">
-                    <div id="features">
-                        <div id="features_wrap">
-
-                            <div class="features_content">
+                <div class="col-xs-12 col-sm-8 col-md-8 col-lg-9">
+                 
                                 <h2 class="features_section">Capital Features</h2>
-                                <div class="col-md-12">
-                                    <ul id="features_content">
+                                
+                                  
                                         <div class="row">
 
-                                            <div class="col-md-6">
+                                            <div class="col-sm-6 col-md-6 col-lg-6">
                                                 <div class="row">
                                                     <div class="col-sm-12 col-md-4 col-lg-4 content-left">
                                                         <li><a class="fancy" href="#"><span></span><em
                                                                     class="fd"></em><img src="images/t1.png"
                                                                     alt="" /></a></li>
                                                     </div>
-                                                    <div class="col-sm-12 col-md-8 col-md-8"><strong>Lorem</strong>
+                                                    <div class="col-sm-12 col-md-8 col-md-8"><strong>Premium Course</strong>
                                                         <div class="content">
-                                                            <p></p>
+                                                            <p>Lorem ipsum is placeholder text commonly used in the graphic</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -52,7 +49,7 @@
 
                                             </div>
 
-                                            <div class="col-md-6">
+                                            <div class="col-sm-6 col-md-6 col-lg-6">
 
                                                 <div class="row">
                                                     <div class="col-sm-12 col-md-4 col-lg-4">
@@ -60,9 +57,9 @@
                                                                 rel="group"><span></span><em class="fd"></em><img
                                                                     src="images/t2.png" alt="" /></a></li>
                                                     </div>
-                                                    <div class="col-sm-12 col-md-8 col-md-8"><strong>Lorem</strong>
+                                                    <div class="col-sm-12 col-md-8 col-md-8"><strong>Premium Course</strong>
                                                         <div class="content">
-                                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                                            <p>Lorem ipsum is placeholder text commonly used in the graphic</p>
                                                         </div>
                                                     </div>
 
@@ -79,12 +76,9 @@
                                             </div>
 
                                     </ul>
-                                </div>
-                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
                         <div class="theme_details">
 
                             <div class="details_section">

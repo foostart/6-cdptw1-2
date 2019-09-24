@@ -7,7 +7,7 @@
 
     }
     .col-md-4 {
-        with:33.33%;
+      
         float: left;
     }
     .row{
@@ -17,36 +17,12 @@
         float: right;
     }
 
-    div {
-        display: block;
-    }
-    div {
-        margin: 0;
-        padding: 0;
-        border: 0;
-        outline: 0;
-        font-weight: inherit;
-        font-style: inherit;
-        font-family: inherit;
-        vertical-align: baseline;
-    }
+ 
     .features_content {
         float: left;
         
     }
-    h2 {
-        display: block;
-        -webkit-margin-before: 0.83em;
-        -webkit-margin-after: 0.83em;
-        -webkit-margin-start: 0px;
-        -webkit-margin-end: 0px;
-        padding: 0;
-        border: 0;
-        outline: 0;
-        font-style: inherit;
-        font-family: inherit;
-        vertical-align: baseline;
-    }
+  
     .features_content h2, .features_content h3 {
         color: #242628;
         font-size: 30px;
@@ -95,7 +71,7 @@
         padding: 0 0 30px;
         margin: 0 28px 30px 0;
         height: auto;
-        width: 369px;
+        width: 100%;
     }
     a:-webkit-any-link {
         cursor: auto;
@@ -198,31 +174,16 @@
         margin: 0;
         overflow: hidden;
     }
-    div {
-        margin: 0;
-        padding: 0;
-        border: 0;
-        outline: 0;
-        font-weight: inherit;
-        font-style: inherit;
-        font-family: inherit;
-        vertical-align: baseline;
-        margin: 0;
-        border: 0;
-        outline: 0;
-        font-weight: inherit;
-        font-style: inherit;
-        font-family: inherit;
-        vertical-align: baseline;
-    }
+  
     .theme_details {
         background: #fcfbe3;
         box-shadow: 3px 3px 0 0 #F1EBD4;
-        float: right;
+        float:right;
         width: 275px;
         border: 1px solid #d7d1bc;
         border-radius: 3px;
-        margin-left: 40px;
+        
+        
     }
     .theme_details .details_section {
         padding: 20px 30px 10px;
@@ -314,5 +275,11 @@
         display: block;
         padding: 0 0 10px;
     }
+    @media only screen and (max-width: 765px) {
+        .theme_details {
+        margin-left: ~"calc(50% - 137.5px)";
+          float:none;
+        }
+      }
 
 }
