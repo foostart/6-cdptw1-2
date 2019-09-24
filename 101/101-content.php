@@ -23,22 +23,22 @@
     </head>
 
     <body>
-        <div class="mod-custom-17">
+        <div class="module-101">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 margin-top">
                         <aside id="themerex_widget_top10-4" class="widget_number_2 column-1_3 widget widget_top10">
                             <h5 class="widget_title">Popular Courses</h5>
                            
                                 <div class="a">
                                     <div class="row">
-                                        <div class="col-md-3">
+                                        <div class="col-xs-3 col-sm-3 col-md-3 col-md-3">
                                             <div class="post_thumb"><img class="wp-post-image" width="75" height="75" src="images/1.jpg"></div>
                                         </div>
-                                        <div class="col-md-9">
+                                        <div class="col-xs-9 col-sm-9 col-md-9 col-md-9">
                                             <article class="post_item with_thumb first">
                                                 <div class="post_content">
-                                                    <h6 class="post_title"><a href="#"><h1>Title</h1></a></h6>
+                                                    <h6 class="post_title"><a href="#"><h5>Title</h5></a></h6>
                                                     <div class="post_info">
                                                         <span class="post_info_item post_info_posted">
                                                             <a href="#" class="post_info_date">March 8, 2015</a></span>
@@ -59,19 +59,19 @@
                         </aside>
                     </div>
 
-                    <div class="col-md-6">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 margin-top">
                         <aside id="themerex_widget_top10-4" class="widget_number_2 column-1_3 widget widget_top10">
                             <h5 class="widget_title">Recent Courses</h5>
                             
                                 <div class="a">
                                     <div class="row">
-                                        <div class="col-md-3">
-                                            <div class="post_thumb"><img class="wp-post-image" width="75" height="75" src="images/1.jpg"></div>
+                                        <div class="col-xs-3 col-sm-3 col-md-3 col-md-3">
+                                            <div class="post_thumb"><img class="wp-post-image" width="150" height="75" src="images/1.jpg"></div>
                                         </div>
-                                        <div class="col-md-9">
+                                        <div class="col-xs-9 col-sm-9 col-md-9 col-md-9">
                                             <article class="post_item with_thumb first">
                                                 <div class="post_content">
-                                                    <h6 class="post_title"><a href="#"><h1>Title</h1></a></h6>
+                                                    <h6 class="post_title"><a href="#"><h5>Title</h5></a></h6>
                                                     <div class="post_info">
                                                         <span class="post_info_item post_info_posted">
                                                             <a href="#" class="post_info_date">February 10, 2017</a></span>
@@ -87,7 +87,7 @@
                                     </div>
                                 </div>
                             
-
+                               
                     </div>
 
                 </div>
