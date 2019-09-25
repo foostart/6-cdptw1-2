@@ -49,16 +49,12 @@
   -webkit-margin-after: 1em;
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
-}
-.type-91 h3 {
   margin: 0;
   padding: 0;
   border: 0;
   outline: 0;
   vertical-align: baseline;
   list-style: none;
-}
-.type-91 h3 {
   font-style: normal;
   color: #2f251a;
   font-family: PT Serif;
@@ -199,7 +195,7 @@
   color: #2f251a;
   font-family: PT Serif;
 }
-.type-91 .college-box .course-events .col-md-8 .events > h3 {
+.type-91 .college-box .course-events .col-md-8 .events>h3 {
   font-size: 27px;
   font-weight: 700;
   position: relative;

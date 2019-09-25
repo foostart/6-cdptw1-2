@@ -3,10 +3,10 @@
 }
 .mod_custom_14 .container {
   margin: 0 auto;
-  padding: 0;
 }
 .mod_custom_14 .col-md-4 {
   float: left;
+  list-style: none;
 }
 .mod_custom_14 .row {
   margin-top: 38px;
@@ -17,8 +17,7 @@
 .mod_custom_14 .features_content {
   float: left;
 }
-.mod_custom_14 .features_content h2,
-.mod_custom_14 .features_content h3 {
+.mod_custom_14 .features_content h2 {
   color: #242628;
   font-size: 30px;
 }
@@ -44,28 +43,8 @@
   vertical-align: baseline;
   list-style: none inside;
 }
-.mod_custom_14 li {
-  text-align: -webkit-match-parent;
-  border: 0;
-  outline: 0;
-  font-weight: inherit;
-  font-style: inherit;
-  font-family: inherit;
-}
-.mod_custom_14 #features_content li {
-  display: inline-block;
-  zoom: 1;
-  font-size: 14px;
-  color: #434353;
-  line-height: 1.6;
-  vertical-align: top;
-  position: relative;
-}
-.mod_custom_14 .page-template-template_theme_new-php #features_content li {
-  padding: 0 0 30px;
-  margin: 0 28px 30px 0;
-  height: auto;
-  width: 100%;
+.mod_custom_14 hr {
+  display: none;
 }
 .mod_custom_14 a:-webkit-any-link {
   cursor: auto;
@@ -80,14 +59,6 @@
 .mod_custom_14 .features_content a {
   font-weight: 700;
   text-decoration: underline;
-}
-.mod_custom_14 #features_content li a.fancy {
-  float: left;
-  width: 80px;
-  height: 82px;
-  overflow: hidden;
-  margin: 0 12px 0 1px;
-  border-radius: 50%;
 }
 .mod_custom_14 span {
   margin: 0;
@@ -128,6 +99,7 @@
   font-style: inherit;
   font-family: inherit;
   vertical-align: baseline;
+  cursor: pointer;
 }
 .mod_custom_14 .features_content img {
   max-width: 100%;
@@ -199,17 +171,6 @@
   color: #534a37;
   margin: 0 0 20px;
 }
-.mod_custom_14 li {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-style: inherit;
-  font-family: inherit;
-  vertical-align: baseline;
-  display: list-item;
-  text-align: -webkit-match-parent;
-}
 .mod_custom_14 .theme_details li {
   font-weight: 600;
   font-size: 14px;
@@ -257,8 +218,28 @@
   padding: 0 0 10px;
 }
 @media only screen and (max-width: 765px) {
+  .mod_custom_14 .row {
+    margin-top: 20px;
+  }
+  .mod_custom_14 .row hr {
+    display: block;
+  }
+  .mod_custom_14 .footer {
+    background: #fcfbe3;
+  }
   .mod_custom_14 .theme_details {
-    margin-left: calc(50% - 137.5px);
+    background: #fcfbe3;
     float: none;
+    width: 100%;
+    border: none;
+    box-shadow: none;
+  }
+  .mod_custom_14 .theme_details .details_section {
+    padding-left: 5px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .mod_custom_14 .theme_details {
+    float: none !important;
   }
 }

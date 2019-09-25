@@ -32,14 +32,14 @@
                                   
                                         <div class="row">
 
-                                            <div class="col-sm-6 col-md-6 col-lg-6">
+                                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                                                 <div class="row">
-                                                    <div class="col-sm-12 col-md-4 col-lg-4 content-left">
+                                                    <div class="col-xs-3 col-sm-3 col-md-4 col-lg-3 content-left">
                                                         <li><a class="fancy" href="#"><span></span><em
                                                                     class="fd"></em><img src="images/t1.png"
                                                                     alt="" /></a></li>
                                                     </div>
-                                                    <div class="col-sm-12 col-md-8 col-md-8"><strong>Premium Course</strong>
+                                                    <div class="col-xs-9 col-sm-9 col-md-8 col-md-9"><strong>Premium Course</strong>
                                                         <div class="content">
                                                             <p>Lorem ipsum is placeholder text commonly used in the graphic</p>
                                                         </div>
@@ -49,15 +49,15 @@
 
                                             </div>
 
-                                            <div class="col-sm-6 col-md-6 col-lg-6">
+                                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 
                                                 <div class="row">
-                                                    <div class="col-sm-12 col-md-4 col-lg-4">
+                                                    <div class="col-xs-3 col-sm-3 col-md-4 col-lg-3">
                                                         <li><a class="fancy" href="#" title="Dynamic Homepage Builder"
                                                                 rel="group"><span></span><em class="fd"></em><img
                                                                     src="images/t2.png" alt="" /></a></li>
                                                     </div>
-                                                    <div class="col-sm-12 col-md-8 col-md-8"><strong>Premium Course</strong>
+                                                    <div class="col-xs-9 col-sm-9 col-md-8 col-md-9"><strong>Premium Course</strong>
                                                         <div class="content">
                                                             <p>Lorem ipsum is placeholder text commonly used in the graphic</p>
                                                         </div>
@@ -71,14 +71,17 @@
                                       
 
 
-                                                <hr>
+                                            
 
                                             </div>
 
-                                    </ul>
+                                         
                         </div>
+                        <hr>
                     </div>
-                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
+                     
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3 footer">
+                   
                         <div class="theme_details">
 
                             <div class="details_section">
@@ -102,7 +105,8 @@
                         </div>
                     </div>
             </div>
-        </div>
+            </div> 
+  
     </div>
     </body>
 </html>

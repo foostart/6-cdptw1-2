@@ -137,11 +137,3 @@
 
 </html>
 <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
- <script>
-    var swiper = new Swiper('.swiper-container', {
-      navigation: {
-        nextEl: '.flex-next',
-        prevEl: '.flex-prev',
-      },
-    });
-  </script>

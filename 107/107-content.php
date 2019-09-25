@@ -4,12 +4,12 @@
       <div class="col-md-6">
 
         <h6>University Grade Theme Features</h6>
-        <div class="panel-group" id="accordion">
+        <div class="panel-group haha" id="accordion">
           <div class="panel panel-default">
             <div class="panel-heading highlight">
               <h2 class="panel-title university highlight" >
                 <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true">
-                  + Premium Course Catalog System</a>
+                  <span>-</span> Premium Course Catalog System</a>
               </h2>
             </div>
             <div id="collapse1" class="panel-collapse collapse in">
@@ -20,7 +20,7 @@
             <div class="panel-heading">
               <h2 class="panel-title  university ">
                 <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" >
-                +  Faculty User Roles with Course
+                <span>+</span> Faculty User Roles with Course
                   integration!</a>
               </h2>
             </div>
@@ -34,7 +34,7 @@
               <h2 class="panel-title  university">
                 <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
 
-                + Faculty User Roles with Course 
+<span>+</span> Faculty User Roles with Course 
                   integration!</a>
               </h2>
             </div>
@@ -47,7 +47,7 @@
               <h2 class="panel-title university">
                 <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
 
-                + Faculty User Roles with Course 
+<span>+</span> Faculty User Roles with Course 
                   integration!</a>
               </h2>
             </div>
@@ -60,7 +60,7 @@
               <h2 class="panel-title university abc">
                 <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
 
-                + Faculty User Roles with Course
+                <span>+</span> Faculty User Roles with Course
                   integration!</a>
               </h2>
             </div>
@@ -90,6 +90,7 @@
               </div>
             </div>
           </div>
+
           <div class="col-md-8">
             <h4>Faculty User Roles</h4>
             <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups</p>
@@ -102,10 +103,10 @@
 
         <div
           class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey  content-separator">
+        
           <span class="vc_sep_holder vc_sep_holder_l">
-            <span class="vc_sep_line"></span>
-          </span>
-
+                                <span class="vc_sep_line"></span>                                    
+                            </span>
         </div>
 
         <div class="row">
@@ -124,7 +125,9 @@
                 </div>
               </div>
             </div>
+            <hr>
           </div>
+          
           <div class="col-md-8">
             <h4>Premium Course</h4>
             <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups</p>

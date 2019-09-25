@@ -150,6 +150,7 @@
 }
 .module-101 .post_info a:hover {
   color: #007c9c;
+  cursor: pointer;
 }
 .module-101 span {
   font-family: inherit;

@@ -15,11 +15,9 @@
   }
   .mod-custom-19 .col-md-4 {
     float: left;
-    width: 33, 33%;
   }
   .mod-custom-19 .col-md-8 {
     float: left;
-    width: 66, 67%;
   }
 }
 @media (max-width: 768px) {
@@ -67,7 +65,7 @@
   color: black;
   padding: 30px 0;
 }
-.mod-custom-19 .vc_column_container>.vc_column-inner {
+.mod-custom-19 .vc_column_container .vc_column-inner {
   box-sizing: border-box;
   padding-left: 15px;
   padding-right: 15px;

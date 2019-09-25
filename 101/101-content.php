@@ -33,7 +33,7 @@
                                 <div class="a">
                                     <div class="row">
                                         <div class="col-xs-3 col-sm-3 col-md-3 col-md-3">
-                                            <div class="post_thumb"><img class="wp-post-image" width="75" height="75" src="images/1.jpg"></div>
+                                            <div class="post_thumb"><img class="wp-post-image" width="150" height="75" src="images/1.jpg"></div>
                                         </div>
                                         <div class="col-xs-9 col-sm-9 col-md-9 col-md-9">
                                             <article class="post_item with_thumb first">

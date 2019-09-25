@@ -1,10 +1,17 @@
-.type-91{
+@background-color: #fffcf5;
+@width: 100%;
+@color: #8d7a65;
+@border-color: #f3efe7;
 
-    
-    .college-box .course-events {
-        background: #ffffff;
-        border-top: 1px solid #f3efe7;
-        padding: 55px 0 37px 0;
+.type-91 {
+
+
+    .college-box {
+        .course-events {
+            background: #ffffff;
+            border-top: 1px solid @border-color;
+            padding: 55px 0 37px 0;
+        }
     }
 
     .wrapper {
@@ -12,27 +19,34 @@
         margin: 0 auto;
         box-sizing: border-box;
     }
-    @media (max-width: 1024px)
-        {
+
+    @media (max-width: 1024px) {
         .wrapper {
             width: 96%;
         }
     }
-    
-    .college-box .course-events .col-4 {
-        padding-right: 10px;
-        box-sizing: border-box;
+
+    .college-box {
+        .course-events {
+            .col-4 {
+                padding-right: 10px;
+                box-sizing: border-box;
+            }
+        }
     }
-    .our-college-sidebar article {
-        display: block;
-        &:hover{
-            
-            box-shadow: 0 0 10px #cecece;
-           cursor:  pointer;
-        } 
-        
+
+    .our-college-sidebar {
+        article {
+            display: block;
+
+            &:hover {
+
+                box-shadow: 0 0 10px #cecece;
+                cursor: pointer;
+            }
+        }
     }
-    
+
     article {
         margin: 0;
         outline: 0;
@@ -43,44 +57,51 @@
         vertical-align: baseline;
         list-style: none;
     }
-    .our-college-sidebar article {
-        box-sizing: border-box;
-        background: #fffcf5;
-        border: 1px solid #f3efe7;
-        margin-top: 6px;
-        margin-bottom: 16px;
-        padding: 35.5px 28px 22px 28px;
-        position: relative;
-        transition: all 300ms ease-in-out;
+
+    .our-college-sidebar {
+        article {
+            box-sizing: border-box;
+            background: @background-color;
+            border: 1px solid #f3efe7;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            padding: 35.5px 28px 22px 28px;
+            position: relative;
+            transition: all 300ms ease-in-out;
+        }
     }
+
     h3 {
         display: block;
         -webkit-margin-before: 1em;
         -webkit-margin-after: 1em;
         -webkit-margin-start: 0px;
         -webkit-margin-end: 0px;
-    }
-    h3 {
         margin: 0;
         padding: 0;
         border: 0;
         outline: 0;
         vertical-align: baseline;
         list-style: none;
-    }
-    h3 {
+
         font-style: normal;
         color: #2f251a;
         font-family: PT Serif;
     }
-    .our-college-sidebar article h3 {
-        font-size: 27px;
-        margin-bottom: 20px;
-        position: relative;
-        z-index: 2;
-        font-weight: 700;
-        text-align: center;
+
+    .our-college-sidebar {
+        article {
+            h3 {
+                font-size: 27px;
+                margin-bottom: 20px;
+                position: relative;
+                z-index: 2;
+                font-weight: 700;
+                text-align: center;
+            }
+        }
     }
+
     p {
         display: block;
         -webkit-margin-before: 1em;
@@ -88,7 +109,8 @@
         -webkit-margin-start: 0px;
         -webkit-margin-end: 0px;
     }
-    p{
+
+    p {
         padding: 0;
         border: 0;
         outline: 0;
@@ -97,20 +119,32 @@
         vertical-align: baseline;
         list-style: none;
     }
+
     p {
         margin: 0 0 1em 0;
         text-align: left;
         line-height: 1.5;
     }
-    .our-college-sidebar article p {
-        font-size: 12px;
-        position: relative;
-        z-index: 2;
-        font-family: 'Tahoma', 'Arial', 'sans-serif';
+
+    .our-college-sidebar {
+        article {
+            p {
+                font-size: 12px;
+                position: relative;
+                z-index: 2;
+                font-family: 'Tahoma', 'Arial', 'sans-serif';
+            }
+        }
     }
-    .our-college-sidebar article p {
-        color: #8d7a65;
+
+    .our-college-sidebar {
+        article {
+            p {
+                color: @color;
+            }
+        }
     }
+
     a {
         margin: 0;
         border: 0;
@@ -119,29 +153,41 @@
         vertical-align: baseline;
         list-style: none;
     }
+
     a {
         text-decoration: none;
         cursor: pointer;
     }
-    .our-college-sidebar article a {
-        display: block;
-        position: absolute;
-        padding: 24px 20px 20px 20px;
-        color: #ffffff;
-        font-size: 14px;
-        font-weight: 700;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-        top: 50%;
-        z-index: 1;
-        left: 50%;
-        margin-left: -50px;
-        transition: all 300ms ease-in-out;
-        overflow: hidden;
+
+    .our-college-sidebar {
+        article {
+            a {
+                display: block;
+                position: absolute;
+                padding: 24px 20px 20px 20px;
+                color: #ffffff;
+                font-size: 14px;
+                font-weight: 700;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                top: 50%;
+                z-index: 1;
+                left: 50%;
+                margin-left: -50px;
+                transition: all 300ms ease-in-out;
+                overflow: hidden;
+            }
+        }
     }
-    .our-college-sidebar article a {
-        font-family: PT Sans;
+
+    .our-college-sidebar {
+        article {
+            a {
+                font-family: PT Sans;
+            }
+        }
     }
+
     span {
         margin: 0;
         padding: 0;
@@ -154,24 +200,32 @@
         vertical-align: baseline;
         list-style: none;
     }
-   
- 
-  
+
+
+
 
     .col-md-8 {
-     
+
         float: left;
     }
-    .college-box .course-events .col-md-8 {
-        padding-left: 4%;
-        box-sizing: border-box;
+
+    .college-box {
+        .course-events {
+            .col-md-8 {
+                padding-left: 4%;
+                box-sizing: border-box;
+            }
+        }
     }
-    .no-margin{
+
+    .no-margin {
         margin: 0;
     }
+
     section {
         display: block;
     }
+
     section {
         margin: 0;
         padding: 0;
@@ -184,18 +238,27 @@
         vertical-align: baseline;
         list-style: none;
     }
+
     .flexslider {
         overflow: hidden;
-        .swiper-slide article:hover{
-           transform: scaleY(1.01);
-            box-shadow: 0px 0 10px #cecece; 
+
+        .swiper-slide article:hover {
+            transform: scaleY(1.01);
+            box-shadow: 0px 0 10px #cecece;
             cursor: pointer;
-         }
+        }
     }
-    .college-box .course-events .col-md-8 .events {
-        position: relative;
+
+    .college-box {
+        .course-events {
+            .col-md-8 {
+                .events {
+                    position: relative;
+                }
+            }
+        }
     }
-  
+
 
     h3 {
         -webkit-margin-before: 1em;
@@ -203,6 +266,7 @@
         -webkit-margin-start: 0px;
         -webkit-margin-end: 0px;
     }
+
     h3 {
         margin: 0;
         padding: 0;
@@ -211,18 +275,21 @@
         vertical-align: baseline;
         list-style: none;
     }
+
     h3 {
         font-style: normal;
         color: #2f251a;
         font-family: PT Serif;
     }
-    .college-box .course-events .col-md-8 .events > h3 {
+
+    .college-box .course-events .col-md-8 .events>h3 {
         font-size: 27px;
         font-weight: 700;
         position: relative;
         display: inline-block;
         margin-bottom: 0;
     }
+
     ul {
         display: block;
         -webkit-margin-before: 1em;
@@ -231,6 +298,7 @@
         -webkit-margin-end: 0px;
         -webkit-padding-start: 40px;
     }
+
     ul {
         border: 0;
         outline: 0;
@@ -240,11 +308,13 @@
         font-family: inherit;
         vertical-align: baseline;
     }
+
     .flexslider ul {
         margin: 0;
         padding: 0;
         list-style: none;
     }
+
     li {
         border: 0;
         outline: 0;
@@ -254,14 +324,17 @@
         font-family: inherit;
         vertical-align: baseline;
     }
+
     flexslider ul li {
         margin: 0;
         padding: 0;
         list-style: none;
     }
+
     .flexslider .slides li {
         text-align: left;
     }
+
     element.style {
         width: 100%;
         float: left;
@@ -271,6 +344,7 @@
         display: block;
         z-index: 1;
     }
+
     article {
         margin: 0;
         padding: 0;
@@ -283,14 +357,17 @@
         vertical-align: baseline;
         list-style: none;
     }
+
     .college-box .course-events .col-md-8 .events article {
         padding-top: 32px;
         padding-bottom: 33px;
         border-bottom: 1px solid #d8d2c9;
-        &:last-child{
+
+        &:last-child {
             border: none;
         }
     }
+
     span {
         margin: 0;
         border: 0;
@@ -300,6 +377,7 @@
         vertical-align: baseline;
         list-style: none;
     }
+
     .college-box .course-events .col-md-8 .events article .date {
         font-size: 31px;
         display: block;
@@ -312,6 +390,7 @@
         font-weight: 700;
         margin-right: 22px;
     }
+
     span {
         margin: 0;
         padding: 0;
@@ -322,14 +401,17 @@
         vertical-align: baseline;
         list-style: none;
     }
+
     .college-box .course-events .col-md-8 .events article .date span {
         font-size: 11px;
         display: block;
         font-weight: 100;
     }
+
     .college-box .course-events .col-md-8 .events article .date span {
         color: #afa293;
     }
+
     h3 {
         margin: 0;
         padding: 0;
@@ -341,6 +423,7 @@
         font-family: PT Serif;
         font-style: normal;
     }
+
     .college-box .course-events .col-md-8 .events article h3 {
         font-size: 19px;
         margin-bottom: 10px;
@@ -349,7 +432,8 @@
         border-bottom: 1px solid transparent;
         color: #3b2409;
     }
-    a{
+
+    a {
         margin: 0;
         padding: 0;
         border: 0;
@@ -361,14 +445,17 @@
         vertical-align: baseline;
         list-style: none;
     }
+
     a {
         text-decoration: none;
         cursor: pointer;
         transition: color 100ms linear;
     }
+
     .college-box .course-events .col-md-8 .events article h3 a {
         color: #3b2409;
     }
+
     p {
         display: block;
         -webkit-margin-before: 1em;
@@ -376,7 +463,8 @@
         -webkit-margin-start: 0px;
         -webkit-margin-end: 0px;
     }
-    p{
+
+    p {
         padding: 0;
         border: 0;
         outline: 0;
@@ -386,18 +474,22 @@
         vertical-align: baseline;
         list-style: none;
     }
+
     p {
         margin: 0 0 1em 0;
         text-align: left;
     }
+
     .college-box .course-events .col-md-8 .events article p {
         line-height: 1.7em;
         margin-bottom: 0;
         font-family: 'MSReferenceSansSerif';
     }
+
     .college-box .course-events .col-md-8 .events article p {
-        color: #8d7a65;
+        color: @color;
     }
+
     ul {
         display: block;
         -webkit-margin-before: 1em;
@@ -406,7 +498,8 @@
         -webkit-margin-end: 0px;
         -webkit-padding-start: 40px;
     }
-    ul{
+
+    ul {
         border: 0;
         outline: 0;
         font-weight: inherit;
@@ -415,18 +508,22 @@
         font-family: inherit;
         vertical-align: baseline;
     }
+
     .flex-direction-nav {
         height: 0;
         margin: 0 !important;
         width: 100%;
     }
-    .flexslider ul{
+
+    .flexslider ul {
         padding: 0;
         list-style: none;
     }
+
     li {
         text-align: -webkit-match-parent;
     }
+
     li {
         border: 0;
         outline: 0;
@@ -436,15 +533,18 @@
         font-family: inherit;
         vertical-align: baseline;
     }
+
     .flex-direction-nav li {
         display: inline-block;
     }
+
     .flexslider ul li {
         margin: 0;
         padding: 0;
         list-style: none;
     }
-    a{
+
+    a {
         margin: 0;
         padding: 0;
         border: 0;
@@ -455,6 +555,7 @@
         vertical-align: baseline;
         list-style: none;
     }
+
     .flex-direction-nav li a {
         font-size: 0;
         color: transparent;
@@ -467,15 +568,17 @@
         right: 30px;
         top: 0;
         z-index: 2;
-        $:hover{
 
+        $:hover {}
+
+        &:hover:before {
+            color: black;
+            background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #cec5b3), color-stop(1, #a59471));
+            ;
         }
-        &:hover:before{
-        color:black;
-        background: -webkit-gradient(linear,left bottom,left top,color-stop(0,#cec5b3),color-stop(1,#a59471));;
-        }
-        
+
     }
+
     .flex-direction-nav li a:before {
         content: "\f104";
         font-size: 26px;
@@ -492,7 +595,7 @@
         border-bottom: 2px solid #c5bba8;
         background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #cec5b3), color-stop(1, #d7d0c1));
         transition: all 300ms ease-in-out;
-     
+
 
 
 
@@ -510,9 +613,11 @@
         top: 0;
         z-index: 2;
     }
+
     .flex-direction-nav li a.flex-next {
         right: 0;
     }
+
     .flex-direction-nav li a.flex-next:before {
         content: "\f105";
         border-left: 1px solid #c5bba8;
