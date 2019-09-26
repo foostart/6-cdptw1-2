@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-
+ 
     <head>
         <meta charset="UTF-8">
         <title></title>
@@ -15,10 +15,9 @@
         ?>
         
 	<link href="css/type-91.css" rel="stylesheet" type="text/css"/>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css" rel="stylesheet" type="text/css"/>
+
 	
-        <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
-       
+    
     </head>
 
     <body>
@@ -136,9 +135,3 @@
     </body>
 
 </html>
-<script>var swiper = new Swiper('.swiper-container', {
-    navigation: {
-      nextEl: '.flex-next',
-      prevEl: '.flex-prev',
-    },
-  });</script>
