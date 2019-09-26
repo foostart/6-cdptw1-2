@@ -14,9 +14,10 @@
         $less->compileFile('less/type-91.less', 'css/type-91.css');
         ?>
         <link href="css/type-91.css" rel="stylesheet" type="text/css"/>
-
+<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
         <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
+          <script src="js/script.js" type="text/javascript"></script>
     </head>
 
     <body>
