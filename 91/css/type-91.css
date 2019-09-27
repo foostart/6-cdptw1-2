@@ -242,6 +242,13 @@
   margin: 0;
   padding: 0;
   list-style: none;
+  width: 100%;
+  float: left;
+  margin-right: -100%;
+  position: relative;
+  opacity: 1;
+  display: block;
+  z-index: 2;
 }
 .type-91 .flexslider .slides li {
   text-align: left;

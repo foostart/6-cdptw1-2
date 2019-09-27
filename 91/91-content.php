@@ -1,9 +1,6 @@
-<!DOCTYPE html>
-<html>
- 
-    <head>
+
         <meta charset="UTF-8">
-        <title></title>
+   
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <?php
@@ -18,9 +15,9 @@
 
 	
     
-    </head>
 
-    <body>
+
+
         <div class="type-91">
             <div class="container college-box">
                 <div class="course-events">
@@ -30,13 +27,13 @@
                                 <article>
                                     <h3>Library</h3>
                                     <p>An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, mea ea ullum epicurei. Saepe tantas ocurreret duo ea, has facilisi vulputate an</p>
-                                    <a href="#">See more<span></span></a>
+                                    <a href="#">See more</a>
                                 </article>
 
                                 <article>
                                     <h3>Online course</h3>
                                     <p>An utinam reprimique duo, putant mandamus cu qui. Autem possim his cu, quodsi nominavi fabellas ut sit, mea ea ullum epicurei. Saepe tantas ocurreret duo ea, has facilisi vulputate an</p>
-                                    <a href="#">See more<span></span></a>
+                                    <a href="#">See more</a>
                                 </article>
                             </div>
 
@@ -48,7 +45,9 @@
                                     <ul class="swiper-container">
                                          <div class="swiper-wrapper">
                                             <div class="swiper-slide">
-                                        <li style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2;">								<article>
+                                           
+                                        <li >			
+                                        <article>			
                                                 <span class="date">28<span>Wed 2015</span></span>
                                                 <h3><a href="#">Nam eget dui. Etiam rhoncus</a></h3>
                                                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur </p>
@@ -66,7 +65,8 @@
                                         </li>
                                         </div>
                                        <div class="swiper-slide">
-                                        <li style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2;">								<article>
+                                        <li style="">								
+                                        <article>
                                                 <span class="date">28<span>Wed 2015</span></span>
                                                 <h3><a href="#">Nam eget dui. Etiam rhoncus</a></h3>
                                                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur </p>
@@ -84,7 +84,8 @@
                                         </li>
                                         </div> 
                                          <div class="swiper-slide">
-                                        <li style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2;">								<article>
+                                        <li >								
+                                        <article>
                                                 <span class="date">28<span>Wed 2015</span></span>
                                                 <h3><a href="#">Nam eget dui. Etiam rhoncus</a></h3>
                                                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur </p>
@@ -102,7 +103,8 @@
                                         </li>
                                         </div>
                                             <div class="swiper-slide">
-                                        <li style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2;">                             <article>
+                                        <li >                             
+                                        <article>
                                                 <span class="date">28<span>Wed 2015</span></span>
                                                 <h3><a href="#">Nam eget dui. Etiam rhoncus</a></h3>
                                                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur </p>
@@ -124,7 +126,7 @@
                                         				
 
                                     </ul>
-
+        
                                     <ul class="flex-direction-nav"><li><a href="#" class="flex-prev">Previous</a></li><li><a class="flex-next" href="#">Next</a></li></ul></section>
                             </div>
                         </div>
@@ -132,6 +134,4 @@
                 </div>
             </div>
         </div>
-    </body>
-
-</html>
+   

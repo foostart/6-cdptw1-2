@@ -106,7 +106,7 @@
         
           <span class="vc_sep_holder vc_sep_holder_l">
                                 <span class="vc_sep_line"></span>                                    
-                            </span>
+                           
         </div>
 
         <div class="row">
