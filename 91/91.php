@@ -15,7 +15,7 @@
         ?>
         <link href="css/type-91.css" rel="stylesheet" type="text/css"/>
 
-      <link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css" rel="stylesheet" type="text/css"/>
+      <link href="./css/swiper.min.css" rel="stylesheet" type="text/css"/>
     
     </head>
 
@@ -25,5 +25,5 @@
 
 </html>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js'></script>
+<script src='./js/swiper.min.js'></script>
 <script  src="./js/script.js"></script>

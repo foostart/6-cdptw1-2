@@ -1,8 +1,8 @@
 $(document).ready(function() {
- new Swiper('.swiper-container', {
-    
-       nextButton: '.flex-next',
-      prevButton:  '.flex-prev',
-    
+ var swiper = new Swiper('.swiper-container', {
+    navigation: {
+       nextEl: '.flex-next',
+      prevEl:  '.flex-prev',
+    },
   });
 });
